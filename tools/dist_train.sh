@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-source /home/mingjian/anaconda3/etc/profile.d/conda.sh
-conda activate open-mmlab
-
 CONFIG=$1
 GPUS=$2
 PORT=${PORT:-29500}
