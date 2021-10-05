@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+source /home/mingjian/anaconda3/etc/profile.d/conda.sh
+conda activate open-mmlab
+
 CONFIG=$1
 CHECKPOINT=$2
 GPUS=$3
